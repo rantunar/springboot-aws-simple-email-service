@@ -1,0 +1,1 @@
+# springboot-aws-simple-email-service
