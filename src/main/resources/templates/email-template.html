@@ -1,0 +1,13 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+ <body>
+    <p th:text="${'Hello Dear ' + name}"></p>
+    <p>
+      You have been successfully subscribed to the <b>Fake newsletter</b>.
+      <span th:text="${templateVariable}"></span>
+    </p>
+	<p>
+      Regards, <br />
+    </p>
+  </body>
+</html>
